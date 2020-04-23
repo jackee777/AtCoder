@@ -1,6 +1,7 @@
+#ABC143 D
 A, B, N = map(int, input().split())
 
-l = 0
+l = -1
 r = 10 ** 9 + 1
 while (r - l) > 1:
     m = (l + r) // 2
